@@ -25,13 +25,6 @@ p{
     font-family: 'Raleway', sans-serif;
 }
 
-img{
-    transition: transform 0.3s;
-}
-
-img:hover{
-	transform: scale(1.2);
-}
 
 .bg-nav{
     background-color: #72424e; 
