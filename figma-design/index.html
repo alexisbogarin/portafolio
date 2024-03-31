@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Designs</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .flex img{
+            width: 720px;
+        }
+
+        @media (max-width: 768px){
+            .flex img{
+                width: 100%;
+            }
+        }
+        .button{
+            text-decoration: none;
+            padding: 1rem;
+            background-color: brown;
+            color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="button" href="../index.html">👈 Go Back</a>
+    <div class="flex">
+        <img src="img/Agency.png">
+        <img src="img/AsaditoGames.png">
+        <img src="img/Formulario.png">
+        <img src="img/PetGuuf.png">
+    </div>
+</body>
+
+</html>
