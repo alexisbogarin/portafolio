@@ -212,9 +212,10 @@ a{
 }
 
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     .projects__items{
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -222,6 +223,12 @@ a{
 }
 
 @media (max-width: 768px){
+    .projects__items img{
+        width: 100%;
+    }
+}
+
+@media (width <= 768px){
     .projects__items img{
         width: 100%;
     }
